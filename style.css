@@ -1,12 +1,13 @@
 body {
     font-family: Arial, sans-serif;
+    background: #F5F5F5;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 header {
-    background: #007BFF;
-    color: white;
+    background: #F2EAD3;
+    color: #5a4a36;
     padding: 10px 20px;
     text-align: center;
 }
@@ -14,8 +15,21 @@ section {
     padding: 20px;
     margin: 10px;
 }
+
+footer {
+    background: #3F2305;
+    color: #DFD7BF;
+    padding: 2px 0px;
+    text-align: center;
+    font-size: 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
 h2 {
-    border-bottom: 2px solid #007BFF;
+    color: #4a3a2a;
+    border-bottom: 2px solid #5a4a36;
     padding-bottom: 5px;
 }
 
